@@ -1,0 +1,164 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BOUTON */ 
+
+.bouton {
+    text-decoration: none;
+    padding: 15px;
+}
+
+.bouton {
+    color: #000;
+    border-color: #000;
+    display:   block;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, border 1s;
+    margin-top: 20px;;
+}
+
+.bouton:hover {
+    color: #fff;
+    background-color: blue;
+}
+
+/* HEADER */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1366px;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#logo {
+    height: 75px;
+    width: auto;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#menu ul li {
+    padding-right: 20px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li a:hover {
+    text-decoration: none;
+    color: cadetblue;
+    border-bottom-style: solid;
+    transition: 0.3s;
+}
+
+/* MAIN */
+
+section {
+    width: 80%;
+    max-width: 1366px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+#presentation hr {
+    width: 150px;
+    height: 5px;
+    background-color: aqua;
+    border: 0;
+}
+
+#categorie {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+#categorie div {
+    width: 25%;
+    background-color: rgb(101, 133, 177);
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 20px #776d6d;
+    display: inline-block;
+    text-align: center;
+}
+
+#categorie div:hover {
+    background-color: orangered;
+    transition: 0.5s; 
+}
+
+#categorie div h2 {
+    text-align: center;
+}
+
+#categorie div img {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px #696060;  
+}
+
+#categorie div p {
+    padding-top: 20px;
+}
+
+#portrait {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#portrait h2, #portrait p{
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.img-portrait {
+    background-image: url(../images/musicien.jpg);
+    width: 750vh;
+    min-width: 200px;
+    max-width: 300px;
+    max-height: 600px;
+    border-radius: 10px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 480px) {
+    
+}
